@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A.G. Electrosolution — Поставка электронных компонентов и PCB</title>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+<style>
+body { font-family: Arial, sans-serif; margin:0; background:#f5f5f5; color:#333; }
+header { background: linear-gradient(90deg, #1e3a8a, #4f46e5); color: #fff; text-align:center; padding:60px 20px; }
+header h1 { font-size:2.5rem; margin-bottom:10px; }
+header p { font-size:1.2rem; max-width:600px; margin:0 auto 20px; }
+.btn { display:inline-block; padding:12px 24px; border-radius:25px; text-decoration:none; font-weight:bold; margin:5px; }
+.btn-primary { background-color:#fff; color:#1e3a8a; }
+.btn-secondary { border:2px solid #fff; color:#fff; }
+section { padding:60px 20px; max-width:1000px; margin:0 auto; }
+h2 { text-align:center; font-size:2rem; margin-bottom:40px; }
+.advantages, .partners, .applications { display:flex; flex-wrap:wrap; justify-content:center; gap:20px; }
+.card { background:#fff; border-radius:15px; padding:30px; flex:1 1 250px; box-shadow:0 4px 12px rgba(0,0,0,0.1); text-align:center; transition: transform 0.3s ease; }
+.card i { font-size:2rem; margin-bottom:15px; color:#1e3a8a; }
+form input, form textarea { width:100%; padding:12px; margin-bottom:15px; border-radius:10px; border:1px solid #ccc; }
+form button { width:100%; padding:14px; border:none; border-radius:25px; background-color:#1e3a8a; color:#fff; font-size:1rem; cursor:pointer; }
+.alert { padding:12px; border-radius:12px; text-align:center; margin-top:10px; }
+.alert-success { background:#d1fae5; color:#065f46; }
+footer { text-align:center; padding:30px 20px; color:#666; font-size:0.9rem; background:#f0f0f0; }
+img.partner-logo { max-width:120px; height:auto; margin-bottom:10px; transition: transform 0.3s ease; }
+img.partner-logo:hover { transform: scale(1.2); }
+@media(max-width:1024px){ .advantages, .partners, .applications{ flex-direction:column; } }
+</style>
+</head>
+<body>
+
+<header>
+<h1>2025 A.G. Electrosolution</h1>
+<p>Поставка импортных электронных компонентов и производство печатных плат в Россию. Murata, Yageo, Bourns и другие проверенные бренды. Rigid, Flex, Rigid-Flex, HDI — от прототипа до серий.</p>
+<a href="#contact" class="btn btn-primary">Запросить стоимость</a>
+<a href="/price.pdf" class="btn btn-secondary">Скачать прайс</a>
+</header>
+
+<section>
+<h2>Наши преимущества</h2>
+<div class="advantages">
+<div class="card"><i class="fas fa-check-circle"></i><h3>Надёжные компоненты</h3><p>Murata, Yageo, Bourns — стабильные поставки напрямую от производителей.</p></div>
+<div class="card"><i class="fas fa-industry"></i><h3>Производство PCB</h3><p>Работаем с партнерами по всему миру, можем произвести платы любой сложности Rigid, Flex, Rigid-Flex, HDI, EMI Shielding и другие.</p></div>
+<div class="card"><i class="fas fa-shipping-fast"></i><h3>Быстрая доставка</h3><p>Прямые каналы в РФ, помощь с логистикой.</p></div>
+</div>
+</section>
+
+<section>
+<h2>Сферы применения</h2>
+<div class="applications">
+<div class="card"><h3>Аэрокосмическая промышленность</h3><p>Предлагаем комплексные решения для высокотехнологичных космических приложений. 20-нм FPGA космического класса обеспечивают полную радиационную стойкость, высокую пропускную способность и надежность для спутниковых и космических систем.</p></div>
+<div class="card"><h3>Оборонная промышленность</h3><p>Наши решения для промышленных IoT-платформ гарантируют детерминированное управление, поддержку интеллектуальных адаптивных систем и надежность в течение всего жизненного цикла оборудования.</p></div>
+<div class="card"><h3>Медицинское обслуживание</h3><p>Высокопроизводительные адаптивные вычислительные технологии позволяют создавать инновационные медицинские системы и решения для обработки данных следующего поколения.</p></div>
+<div class="card"><h3>Автомобили</h3><p>Современные системы автономного и полуавтономного вождения опираются на высокопроизводительные процессоры и передовые датчики для обеспечения безопасности и эффективности.</p></div>
+<div class="card"><h3>Беспроводной сектор</h3><p>Программируемые устройства для проводной и беспроводной связи поддерживают стандарты 3G, 4G, 5G, а также гигабитные и мультитерабитные системы передачи данных, обеспечивая надежную связь и покрытие сети.</p></div>
+<div class="card"><h3>Бытовая электроника</h3><p>FPGA и 3D интегральные схемы обеспечивают комплексную системную интеграцию с оптимизацией производительности, энергопотребления и надежности в современных потребительских устройствах.</p></div>
+</div>
+</section>
+
+<section id="brands">
+<h2>Наши бренды</h2>
+<div class="swiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><img class="partner-logo" src="https://upload.wikimedia.org/wikipedia/commons/4/44/Murata_logo.svg" alt="Murata"></div>
+    <div class="swiper-slide"><img class="partner-logo" src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Yageo_logo.svg" alt="Yageo"></div>
+    <div class="swiper-slide"><img class="partner-logo" src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Bourns_logo.svg" alt="Bourns"></div>
+    <div class="swiper-slide"><img class="partner-logo" src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Intel_logo.svg" alt="Intel"></div>
+    <div class="swiper-slide"><img class="partner-logo" src="https://upload.wikimedia.org/wikipedia/commons/3/3b/AMD_logo.svg" alt="AMD"></div>
+    <div class="swiper-slide"><img class="partner-logo" src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Qualcomm_logo.svg" alt="Qualcomm"></div>
+    <div class="swiper-slide"><img class="partner-logo" src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Analog_Devices_logo.svg" alt="Analog Devices"></div>
+    <div class="swiper-slide"><img class="partner-logo" src="https://upload.wikimedia.org/wikipedia/commons/5/5b/ON_Semiconductor_logo.svg" alt="ON Semiconductor"></div>
+    <div class="swiper-slide"><img class="partner-logo" src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Infineon_logo.svg" alt="Infineon"></div>
+    <div class="swiper-slide"><img class="partner-logo" src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Siemens_logo.svg" alt="Siemens"></div>
+  </div>
+  <div class="swiper-pagination"></div>
+</div>
+</section>
+
+<section id="contact">
+<h2>Запрос расчета и подбор компонентов</h2>
+<p>Отправьте ваши Gerber/ODB файлы, и мы подготовим подробное предложение по стоимости и срокам. Также можете прислать список необходимых электронных компонентов.</p>
+<form id="pcb-form" action="https://formspree.io/f/xwpkjyqp" method="POST" enctype="multipart/form-data">
+<input type="text" name="name" placeholder="Ваше имя" required>
+<input type="email" name="email" placeholder="Email" required>
+<input type="file" name="files" multiple>
+<textarea name="message" placeholder="Комментарий или список компонентов" rows="4"></textarea>
+<button type="submit">Отправить запрос</button>
+</form>
+<div id="form-message"></div>
+</section>
+
+<footer>
+© 2025 A.G. Electrosolution — Поставка импортных электронных компонентов и производство печатных плат в Россию.<br>
+Email: a.g.electrosolution@gmail.com
+</footer>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+const swiper = new Swiper('.swiper', {
+  slidesPerView: 5,
+  spaceBetween: 20,
+  loop: true,
+  autoplay: { delay: 2500, disableOnInteraction: false },
+  pagination: { el: '.swiper-pagination', clickable: true },
+  breakpoints: {
+    1024: { slidesPerView:5, spaceBetween:20 },
+    768: { slidesPerView:4, spaceBetween:15 },
+    640: { slidesPerView:3, spaceBetween:10 },
+    320: { slidesPerView:2, spaceBetween:5 }
+  }
+});
+
+const form = document.getElementById('pcb-form');
+const msg = document.getElementById('form-message');
+form.addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const data = new FormData(form);
+  const response = await fetch(form.action, { method:'POST', body:data, headers:{Accept:'application/json'} });
+  if(response.ok){
+    msg.innerHTML = '<div class="alert alert-success">✅ Ваш запрос успешно отправлен! Мы свяжемся с вами в ближайшее время.</div>';
+    form.reset();
+  }
+});
+</script>
+
+</body>
+</html>
